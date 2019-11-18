@@ -1,0 +1,19 @@
+.city {
+    height: 28.5rem;
+    background-repeat: no-repeat;
+    width: 40rem;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.city__weather{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.loading{
+    font-size: $l-size;
+    color: white;
+    text-align: center;
+    margin: 2rem auto;
+}

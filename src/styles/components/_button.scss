@@ -1,0 +1,43 @@
+//big button
+.big-button {
+    background: $purplpe;
+    border: none;
+    border-bottom: .6rem solid darken($purplpe, $amount: 10%);
+    color: #fff;
+    font-weight: bold;
+    font-size: $l-size;
+    margin-bottom: $m-size;
+    padding: 2.4rem;
+    width: 100%;
+}
+
+.big-button:disabled{
+    opacity: .5;
+}
+
+
+//button
+.button {
+    background: $purplpe;
+    border: none;
+    border-bottom: .3rem solid darken($purplpe, $amount: 10%);
+    color: #fff;
+    font-weight: 500;
+    padding: $s-size;
+}
+
+.button--link {
+    background: none;
+    border:none;
+    color: $off-white;
+    padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $xl-size;
+    }
+   //a los media les vale las regla del rem que se establecieron en base
+   //para media 1rem = 16px
+   //por lo tanto 450rem = 720px 
+}
